@@ -26,7 +26,7 @@ sed -i '/^# HTTP 代理端口/,/# 规则$/d ' ~/.config/clash/config.yml
 sed -i '1iport: 1090\
 allow-lan: false\
 mode: Rule\
-log-level: silent\
+log-level: silent\Nnn
 external-controller: 127.0.0.1:9090\
 Proxy:\
 - { name: "trojan", type: socks5, server: 127.0.0.1, port: 1080 }\
